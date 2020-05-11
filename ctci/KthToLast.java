@@ -17,7 +17,7 @@ public class KthToLast {
         Node kth = head;
         while (k > 1) {
             if (last.next == null) {
-                throw new IllegalArgumentException("k is too mch");
+                throw new IllegalArgumentException("k is too large");
             }
             last = last.next;
             k--;
