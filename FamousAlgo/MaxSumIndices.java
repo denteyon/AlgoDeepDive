@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MaxSum {
+public class MaxSumIndices {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(cal(new int[]{-2, -4, -3, -5, -11, -9, -8})));
     }

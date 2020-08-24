@@ -1,4 +1,4 @@
-public class span {
+public class Span {
     public static void main(String[] args) {
         int[] a = {1};
         System.out.println(maxSpan(a));

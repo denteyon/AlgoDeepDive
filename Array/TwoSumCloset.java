@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
 public class TwoSumCloset {
     public static void main(String[] args) {
         int[] a = {-1, 2, 1, -4};

@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 //first missing positive
-public class missingPositive {
+public class MissingPositive {
     public static void main(String[] args) {
         int[] a = {0, 2, 1}; //3
         int[] b = {1, 2, 0}; //3

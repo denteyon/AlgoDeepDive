@@ -1,6 +1,4 @@
-package ctci;
-
-public class BitDiff {
+public class HammingDistance {
     public static void main(String[] args) {
         System.out.println(count(29, 15));
         // 110110

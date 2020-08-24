@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class ArraySquare {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(sortedSquares(new int[]{-7, -3, 2, 3, 11})));
+        System.out.println(Arrays.toString(sortedSquares(new int[]{-7, -3, 2, 3, 11}))); //4, 9, 9, 49, 121
     }
     public static int[] sortedSquares(int[] A) {
         int last = A.length - 1;
@@ -23,7 +23,7 @@ public class ArraySquare {
         }
 
         if(last == first) {
-            res[first] = A[first] * A[first];
+            res[count] = A[first] * A[first];
         }
 
         return res;
