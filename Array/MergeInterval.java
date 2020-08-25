@@ -13,8 +13,8 @@ public class MergeInterval {
             System.out.println(ints[0] + " and " + ints[1]);
         }
     }
-    private static int[][] merge(int[][] intervals){
-        if(intervals.length==0){
+    private static int[][] merge(int[][] intervals) {
+        if (intervals.length == 0) {
             return intervals;
         }
 
@@ -31,10 +31,10 @@ public class MergeInterval {
         int end = intervals[0][1];
 
         for (int i = 0; i < intervals.length; i++) {
-            if(end>=intervals[i][0] && end<=intervals[i][1]){
+            if(end >= intervals[i][0]) {
+                if (end < intervals[i][1]) {
                     end = intervals[i][1];
-            } else if (start <= intervals[i][0] && end >= intervals[i][1]) {
-                continue;
+                }
             } else {
                 result.add(new Integer[]{start, end});
                 start = intervals[i][0];
