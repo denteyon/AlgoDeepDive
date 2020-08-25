@@ -1,5 +1,3 @@
-package InterviewCake;
-
 public class ReverseStringInPlace {
     public static void main(String[] args) {
         System.out.println(reverse("talkative"));

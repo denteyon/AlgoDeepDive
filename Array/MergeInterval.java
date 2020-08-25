@@ -30,7 +30,7 @@ public class MergeInterval {
         int start = intervals[0][0];
         int end = intervals[0][1];
 
-        for (int i = 0; i < intervals.length; i++) {
+        for (int i = 1; i < intervals.length; i++) {
             if(end >= intervals[i][0]) {
                 if (end < intervals[i][1]) {
                     end = intervals[i][1];

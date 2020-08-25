@@ -25,14 +25,14 @@ public class BSTIteratorx {
     }
 }
 
-
-//注意这个Iterator和Leetcode里的不太一样，这个Iterator在init的时候就找到first node
-
 class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-  TreeNode(int x) { val = x; }
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) { 
+        val = x; 
+    }
  }
 
 

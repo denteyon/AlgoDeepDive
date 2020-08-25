@@ -1,5 +1,3 @@
-package ctci;
-
 public class IsUnique {
     public static boolean unique(String str) {
         boolean[] all = new boolean[128];

@@ -1,5 +1,3 @@
-package ctci;
-
 public class StringCompression {
     public static String compress(String s) {
         if (s.length() == 0) {

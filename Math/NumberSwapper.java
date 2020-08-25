@@ -1,5 +1,3 @@
-package ctci;
-
 public class NumberSwapper {
     public static void main(String[] args) {
         swap(3, 4);

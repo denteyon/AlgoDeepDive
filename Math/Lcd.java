@@ -1,5 +1,3 @@
-package CodeRust;
-
 public class Lcd {
     static int lcd(int a, int b){
         if(a < b){
