@@ -39,10 +39,10 @@ public class KthPermutation {
             return sb.toString();
         }
         public static void main(String[] args) {
-           for (int i = 1; i <= factorial(4); ++i) {
-               System.out.println( i + "th permutation = \t" + get_permutation(4, i));
-           }
-            // System.out.println(get_permutation(4, 7));
+        //    for (int i = 1; i <= factorial(4); ++i) {
+        //        System.out.println( i + "th permutation = \t" + get_permutation(4, i));
+        //    }
+            System.out.println(get_permutation(4, 7));
         }
 
 }
