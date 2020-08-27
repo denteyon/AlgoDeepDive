@@ -2,10 +2,9 @@ import java.util.*;
 
 public class LetterCombinations {
     
-        static Map<String, String> phone;
+        static Map<String, String> phone = new HashMap<String, String>();
 
         static {
-            phone = new HashMap<String, String>();
             phone.put("2", "abc");
             phone.put("3", "def");
             phone.put("4", "ghi");
