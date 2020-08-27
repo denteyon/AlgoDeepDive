@@ -1,16 +1,22 @@
 import java.util.*;
 
 public class LetterCombinations {
-        static Map<String, String> phone = new HashMap<String, String>() {{
-            put("2", "abc");
-            put("3", "def");
-            put("4", "ghi");
-            put("5", "jkl");
-            put("6", "mno");
-            put("7", "pqrs");
-            put("8", "tuv");
-            put("9", "wxyz");
-        }};
+    
+        static Map<String, String> phone;
+
+        static {
+            phone = new HashMap<String, String>();
+            phone.put("2", "abc");
+            phone.put("3", "def");
+            phone.put("4", "ghi");
+            phone.put("5", "jkl");
+            phone.put("6", "mno");
+            phone.put("7", "pqrs");
+            phone.put("8", "tuv");
+            phone.put("9", "wxyz");
+        }
+        
+        
 
         static List<String> output = new ArrayList<String>();
 
