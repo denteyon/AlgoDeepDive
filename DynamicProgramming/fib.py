@@ -10,12 +10,10 @@ def fib(n, memo={}):
 def fib2(n):
     if n <= 2:
         return 1
-    memo = []
-    memo.insert(0, 1)
-    memo.insert(1, 1)
+    memo = [1]*n
 
     for i in range(2, n):
-        memo.insert(i, memo[i-1] + memo[i-2])
+        memo[i] = memo[i-1] + memo[i-2]
     return memo[n-1]
 
-print(fib2(50))
+print(fib2(8))
