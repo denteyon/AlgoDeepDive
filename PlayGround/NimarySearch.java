@@ -1,5 +1,3 @@
-package CodeRust;
-
 public class NimarySearch {
     static int binarySearch(int[] arr, int k){
         int start = 0;

@@ -16,7 +16,7 @@ def allconstruct(target, word_bank, memo={}):
     return result
 
 print(allconstruct('purple', ['purp', 'p', 'ur', 'le', 'purpl']))
-print(allconstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd', 'ef', 'c']));
+print(allconstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd', 'ef', 'c']))
 print(allconstruct('skateboard', ['bo', 'rd', 'ate', 't', 'ska', 'sk', 'boar']))
 print(allconstruct('aaaaaaaaaaaaaz', ['a', 'aa', 'aaa', 'aaaa', 'aaaaaaa']))
 print(allconstruct('eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefff',
