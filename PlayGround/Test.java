@@ -2,7 +2,11 @@
 
 public class Test {
     public static void main(String[] args) {
-        int a = 3;
-        System.out.println(a^a);
+        if (1) {
+            System.out.println("T");
+        } else {
+            System.out.println("F");
+        }
+        // System.out.println("T");
     }
 }
