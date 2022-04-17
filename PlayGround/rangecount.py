@@ -1,10 +1,11 @@
 def rangeCount(arr):
-    episodes = arr.split(', ')
+    episode_ranges = arr.split(', ')
     count = 0
 
-    for episode in episodes:
-        if len(episode.split('-')) > 1:
-            start, end = episode.split('-')
+    for episode_range in episode_ranges:
+        episodes = episode_range.split('-')
+        if len(episodes) > 1:
+            start, end = episodes
             count += int(end) - int(start) + 1
         else:
             count += 1

@@ -2,7 +2,7 @@
 
 public class Test {
     public static void main(String[] args) {
-        if (1) {
+        if (true) {
             System.out.println("T");
         } else {
             System.out.println("F");
